@@ -20,6 +20,11 @@ export default defineConfig({
       component: './Home',
     },
     {
+      name: '题目列表',
+      path: '/question',
+      component: './Question'
+    },
+    {
       name: '权限演示',
       path: '/access',
       component: './Access',
