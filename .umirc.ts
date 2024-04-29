@@ -25,6 +25,11 @@ export default defineConfig({
       component: './Question'
     },
     {
+      name: '权限管理',
+      path: '/permission',
+      component: './Permission'
+    },
+    {
       name: '权限演示',
       path: '/access',
       component: './Access',
