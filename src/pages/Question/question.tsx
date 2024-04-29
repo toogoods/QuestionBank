@@ -3,7 +3,7 @@ import { Table, Layout, Modal } from "antd";
 import { useAntdTable } from "ahooks";
 import { getQuestionList } from "@/services/question"; 
 import QuestionForm from "./form";
-import Top from "./top";
+import Top from "../../components/top";
 import styles from "./index.less";
 
 export const Question: React.FC = () => {
